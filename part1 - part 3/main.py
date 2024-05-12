@@ -75,12 +75,13 @@
 # ------- scope global and local ------
 
 # ------- exception handling -------
-def my_divide(a=1, b=1):
-    try:
-        print(a/b)
-    except ZeroDivisionError:
-        print("Can not divide by zero")
+
+# def my_divide(a=1, b=1):
+#     try:
+#         print(a/b)
+#     except ZeroDivisionError:
+#         print("Can not divide by zero")
 
 
-my_divide(a=1, b=2)
-my_divide(a=1, b=0)
+# my_divide(a=1, b=2)
+# my_divide(a=1, b=0)
